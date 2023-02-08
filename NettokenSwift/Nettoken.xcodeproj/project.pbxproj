@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665651F729927B3B00CA762E /* NettokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665651F629927B3B00CA762E /* NettokenModel.swift */; };
+		665651F929927DE600CA762E /* NettokenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665651F829927DE600CA762E /* NettokenViewModel.swift */; };
+		665651FB29927E0C00CA762E /* NettokenDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665651FA29927E0C00CA762E /* NettokenDetailView.swift */; };
+		665651FE2992811700CA762E /* NettokenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665651FD2992811700CA762E /* NettokenAPI.swift */; };
+		66565201299281AA00CA762E /* NettokenDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66565200299281AA00CA762E /* NettokenDTO.swift */; };
+		66565203299282B200CA762E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66565202299282B200CA762E /* Network.swift */; };
+		665652052992A49100CA762E /* ViewModel+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665652042992A49100CA762E /* ViewModel+Stub.swift */; };
+		669C8B312993ACA900F7C870 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8B302993ACA900F7C870 /* ImageView.swift */; };
+		66F617F929927899007E9D87 /* NettokenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F617F829927899007E9D87 /* NettokenApp.swift */; };
+		66F617FB29927899007E9D87 /* NettokenListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F617FA29927899007E9D87 /* NettokenListView.swift */; };
+		66F617FD2992789A007E9D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F617FC2992789A007E9D87 /* Assets.xcassets */; };
+		66F618002992789A007E9D87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F617FF2992789A007E9D87 /* Preview Assets.xcassets */; };
+		66F6180A2992789B007E9D87 /* NettokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F618092992789B007E9D87 /* NettokenTests.swift */; };
+		66F618142992789B007E9D87 /* NettokenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F618132992789B007E9D87 /* NettokenUITests.swift */; };
+		66F618162992789B007E9D87 /* NettokenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F618152992789B007E9D87 /* NettokenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F618062992789B007E9D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F617ED29927899007E9D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F617F429927899007E9D87;
+			remoteInfo = Nettoken;
+		};
+		66F618102992789B007E9D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F617ED29927899007E9D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F617F429927899007E9D87;
+			remoteInfo = Nettoken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		665651F629927B3B00CA762E /* NettokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenModel.swift; sourceTree = "<group>"; };
+		665651F829927DE600CA762E /* NettokenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenViewModel.swift; sourceTree = "<group>"; };
+		665651FA29927E0C00CA762E /* NettokenDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenDetailView.swift; sourceTree = "<group>"; };
+		665651FD2992811700CA762E /* NettokenAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenAPI.swift; sourceTree = "<group>"; };
+		66565200299281AA00CA762E /* NettokenDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenDTO.swift; sourceTree = "<group>"; };
+		66565202299282B200CA762E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		665652042992A49100CA762E /* ViewModel+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel+Stub.swift"; sourceTree = "<group>"; };
+		669C8B302993ACA900F7C870 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		66F617F529927899007E9D87 /* Nettoken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nettoken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F617F829927899007E9D87 /* NettokenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenApp.swift; sourceTree = "<group>"; };
+		66F617FA29927899007E9D87 /* NettokenListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenListView.swift; sourceTree = "<group>"; };
+		66F617FC2992789A007E9D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F617FF2992789A007E9D87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66F618052992789B007E9D87 /* NettokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NettokenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F618092992789B007E9D87 /* NettokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenTests.swift; sourceTree = "<group>"; };
+		66F6180F2992789B007E9D87 /* NettokenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NettokenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F618132992789B007E9D87 /* NettokenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenUITests.swift; sourceTree = "<group>"; };
+		66F618152992789B007E9D87 /* NettokenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettokenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F617F229927899007E9D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F618022992789B007E9D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F6180C2992789B007E9D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665651F229927AB500CA762E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				665651F629927B3B00CA762E /* NettokenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		665651F329927ABE00CA762E /* VievModel */ = {
+			isa = PBXGroup;
+			children = (
+				665651F829927DE600CA762E /* NettokenViewModel.swift */,
+			);
+			path = VievModel;
+			sourceTree = "<group>";
+		};
+		665651F429927ACA00CA762E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				669C8B322993ACF300F7C870 /* Common */,
+				66F617FA29927899007E9D87 /* NettokenListView.swift */,
+				665651FA29927E0C00CA762E /* NettokenDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		665651F529927AE200CA762E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				66F617F829927899007E9D87 /* NettokenApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		665651FC299280CD00CA762E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				665651FD2992811700CA762E /* NettokenAPI.swift */,
+				66565200299281AA00CA762E /* NettokenDTO.swift */,
+				66565202299282B200CA762E /* Network.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		665652062992A4AC00CA762E /* Stubs-Mock */ = {
+			isa = PBXGroup;
+			children = (
+				665652042992A49100CA762E /* ViewModel+Stub.swift */,
+			);
+			path = "Stubs-Mock";
+			sourceTree = "<group>";
+		};
+		669C8B322993ACF300F7C870 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				669C8B302993ACA900F7C870 /* ImageView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		66F617EC29927899007E9D87 = {
+			isa = PBXGroup;
+			children = (
+				66F617F729927899007E9D87 /* Nettoken */,
+				66F618082992789B007E9D87 /* NettokenTests */,
+				66F618122992789B007E9D87 /* NettokenUITests */,
+				66F617F629927899007E9D87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F617F629927899007E9D87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F617F529927899007E9D87 /* Nettoken.app */,
+				66F618052992789B007E9D87 /* NettokenTests.xctest */,
+				66F6180F2992789B007E9D87 /* NettokenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F617F729927899007E9D87 /* Nettoken */ = {
+			isa = PBXGroup;
+			children = (
+				665652062992A4AC00CA762E /* Stubs-Mock */,
+				665651FC299280CD00CA762E /* API */,
+				665651F529927AE200CA762E /* App */,
+				665651F429927ACA00CA762E /* View */,
+				665651F329927ABE00CA762E /* VievModel */,
+				665651F229927AB500CA762E /* Model */,
+				66F617FC2992789A007E9D87 /* Assets.xcassets */,
+				66F617FE2992789A007E9D87 /* Preview Content */,
+			);
+			path = Nettoken;
+			sourceTree = "<group>";
+		};
+		66F617FE2992789A007E9D87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66F617FF2992789A007E9D87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66F618082992789B007E9D87 /* NettokenTests */ = {
+			isa = PBXGroup;
+			children = (
+				66F618092992789B007E9D87 /* NettokenTests.swift */,
+			);
+			path = NettokenTests;
+			sourceTree = "<group>";
+		};
+		66F618122992789B007E9D87 /* NettokenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66F618132992789B007E9D87 /* NettokenUITests.swift */,
+				66F618152992789B007E9D87 /* NettokenUITestsLaunchTests.swift */,
+			);
+			path = NettokenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F617F429927899007E9D87 /* Nettoken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F618192992789B007E9D87 /* Build configuration list for PBXNativeTarget "Nettoken" */;
+			buildPhases = (
+				66F617F129927899007E9D87 /* Sources */,
+				66F617F229927899007E9D87 /* Frameworks */,
+				66F617F329927899007E9D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nettoken;
+			productName = Nettoken;
+			productReference = 66F617F529927899007E9D87 /* Nettoken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F618042992789B007E9D87 /* NettokenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F6181C2992789B007E9D87 /* Build configuration list for PBXNativeTarget "NettokenTests" */;
+			buildPhases = (
+				66F618012992789B007E9D87 /* Sources */,
+				66F618022992789B007E9D87 /* Frameworks */,
+				66F618032992789B007E9D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F618072992789B007E9D87 /* PBXTargetDependency */,
+			);
+			name = NettokenTests;
+			productName = NettokenTests;
+			productReference = 66F618052992789B007E9D87 /* NettokenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66F6180E2992789B007E9D87 /* NettokenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F6181F2992789B007E9D87 /* Build configuration list for PBXNativeTarget "NettokenUITests" */;
+			buildPhases = (
+				66F6180B2992789B007E9D87 /* Sources */,
+				66F6180C2992789B007E9D87 /* Frameworks */,
+				66F6180D2992789B007E9D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F618112992789B007E9D87 /* PBXTargetDependency */,
+			);
+			name = NettokenUITests;
+			productName = NettokenUITests;
+			productReference = 66F6180F2992789B007E9D87 /* NettokenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F617ED29927899007E9D87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					66F617F429927899007E9D87 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					66F618042992789B007E9D87 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 66F617F429927899007E9D87;
+					};
+					66F6180E2992789B007E9D87 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 66F617F429927899007E9D87;
+					};
+				};
+			};
+			buildConfigurationList = 66F617F029927899007E9D87 /* Build configuration list for PBXProject "Nettoken" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F617EC29927899007E9D87;
+			productRefGroup = 66F617F629927899007E9D87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F617F429927899007E9D87 /* Nettoken */,
+				66F618042992789B007E9D87 /* NettokenTests */,
+				66F6180E2992789B007E9D87 /* NettokenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F617F329927899007E9D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F618002992789A007E9D87 /* Preview Assets.xcassets in Resources */,
+				66F617FD2992789A007E9D87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F618032992789B007E9D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F6180D2992789B007E9D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F617F129927899007E9D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669C8B312993ACA900F7C870 /* ImageView.swift in Sources */,
+				66565201299281AA00CA762E /* NettokenDTO.swift in Sources */,
+				66F617FB29927899007E9D87 /* NettokenListView.swift in Sources */,
+				66565203299282B200CA762E /* Network.swift in Sources */,
+				665651FB29927E0C00CA762E /* NettokenDetailView.swift in Sources */,
+				665652052992A49100CA762E /* ViewModel+Stub.swift in Sources */,
+				66F617F929927899007E9D87 /* NettokenApp.swift in Sources */,
+				665651F929927DE600CA762E /* NettokenViewModel.swift in Sources */,
+				665651FE2992811700CA762E /* NettokenAPI.swift in Sources */,
+				665651F729927B3B00CA762E /* NettokenModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F618012992789B007E9D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F6180A2992789B007E9D87 /* NettokenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F6180B2992789B007E9D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F618162992789B007E9D87 /* NettokenUITestsLaunchTests.swift in Sources */,
+				66F618142992789B007E9D87 /* NettokenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F618072992789B007E9D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F617F429927899007E9D87 /* Nettoken */;
+			targetProxy = 66F618062992789B007E9D87 /* PBXContainerItemProxy */;
+		};
+		66F618112992789B007E9D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F617F429927899007E9D87 /* Nettoken */;
+			targetProxy = 66F618102992789B007E9D87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66F618172992789B007E9D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66F618182992789B007E9D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F6181A2992789B007E9D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nettoken/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleSwift.Nettoken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66F6181B2992789B007E9D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nettoken/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleSwift.Nettoken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66F6181D2992789B007E9D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleSwift.NettokenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nettoken.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nettoken";
+			};
+			name = Debug;
+		};
+		66F6181E2992789B007E9D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleSwift.NettokenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nettoken.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nettoken";
+			};
+			name = Release;
+		};
+		66F618202992789B007E9D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleSwift.NettokenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nettoken;
+			};
+			name = Debug;
+		};
+		66F618212992789B007E9D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleSwift.NettokenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nettoken;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F617F029927899007E9D87 /* Build configuration list for PBXProject "Nettoken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F618172992789B007E9D87 /* Debug */,
+				66F618182992789B007E9D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F618192992789B007E9D87 /* Build configuration list for PBXNativeTarget "Nettoken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F6181A2992789B007E9D87 /* Debug */,
+				66F6181B2992789B007E9D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F6181C2992789B007E9D87 /* Build configuration list for PBXNativeTarget "NettokenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F6181D2992789B007E9D87 /* Debug */,
+				66F6181E2992789B007E9D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F6181F2992789B007E9D87 /* Build configuration list for PBXNativeTarget "NettokenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F618202992789B007E9D87 /* Debug */,
+				66F618212992789B007E9D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F617ED29927899007E9D87 /* Project object */;
+}
